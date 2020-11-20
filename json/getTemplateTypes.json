@@ -1,0 +1,24 @@
+{
+    "templates": [
+        {
+            "id": "1",
+            "label": "1040 Individual"
+        },
+        {
+            "id": "2",
+            "label": "1065 Partnership"
+        },
+        {
+            "id": "3",
+            "label": "1120S Corporation"
+        },
+        {
+            "id": "4",
+            "label": "1041 Trust and Estate"
+        },
+        {
+            "id": "5",
+            "label": "990 Tax Exempt"
+        }
+    ]
+}

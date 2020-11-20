@@ -1,0 +1,91 @@
+{
+  "entity_name": "Fake & Me",
+  "entity_type": "1040 Individual",
+  "year": 2020,
+  "available_years": [
+    {
+      "year": 2020
+    },
+    {
+      "year": 2019
+    },
+    {
+      "year": 2018
+    },
+    {
+      "year": 2017
+    }
+  ],
+  "files": [
+    {
+      "file_name": "that_one_file.qbb",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "QBB",
+      "entity_name": "Fake & Us"
+    },
+    {
+      "file_name": "okay_last_file.pdf",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "PDF",
+      "entity_name": "Fake & Co."
+    },
+    {
+      "file_name": "recent_file.pdf",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "PDF",
+      "entity_name": "Fake & Me"
+    },
+    {
+      "file_name": "engagement_letter1.docx",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "DOCX",
+      "entity_name": "Cindy Smith CPA"
+    },
+    {
+      "file_name": "another_file.xlsx",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "XLSX",
+      "entity_name": "Fake & Us"
+    },
+    {
+      "file_name": "that_one_file.qbb",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "QBB",
+      "entity_name": "Fake & Us"
+    },
+    {
+      "file_name": "okay_last_file.pdf",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "PDF",
+      "entity_name": "Fake & Co."
+    },{
+      "file_name": "recent_file.pdf",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "PDF",
+      "entity_name": "Fake & Me"
+    },
+    {
+      "file_name": "other_file.docx",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "DOCX",
+      "entity_name": "Fake & Me"
+    }
+  ],
+  "available_entities": [
+    {
+      "entity_id": 1,
+      "entity_type": "1040 Individual",
+      "entity_name": "Fake & Me"
+    },
+    {
+      "entity_id": 2,
+      "entity_type": "1065  Partnership",
+      "entity_name": "Fake & Us"
+    },
+    {
+      "entity_id": 3,
+      "entity_type": "1041 Trust and Estate",
+      "entity_name": "Fake & Co."
+    }
+  ]
+}

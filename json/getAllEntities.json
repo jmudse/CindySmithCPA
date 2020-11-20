@@ -1,0 +1,40 @@
+{
+  "entities": [
+    {
+      "entity_id": 1,
+      "entity_type": "1040 Individual",
+      "entity_name": "Fake & Me",
+      "primary_contact": "John Doe"
+    },
+    {
+      "entity_id": 2,
+      "entity_type": "1065  Partnership",
+      "entity_name": "Fake & Us",
+      "primary_contact": "Jonah Mudse"
+    },
+    {
+      "entity_id": 3,
+      "entity_type": "1041 Trust and Estate",
+      "entity_name": "Fake & Co.",
+      "primary_contact": "Erica Bertolozzi"
+    },
+    {
+      "entity_id": 4,
+      "entity_type": "1040 Individual",
+      "entity_name": "Another Fake & Me",
+      "primary_contact": "Max M."
+    },
+    {
+      "entity_id": 5,
+      "entity_type": "1065  Partnership",
+      "entity_name": "Another Fake & Us",
+      "primary_contact": "Finnegan Pike"
+    },
+    {
+      "entity_id": 6,
+      "entity_type": "1041 Trust and Estate",
+      "entity_name": "Another Fake & Co.",
+      "primary_contact": "Erica Bertolozzi"
+    }
+  ]
+}

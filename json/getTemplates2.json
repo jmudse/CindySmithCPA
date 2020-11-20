@@ -1,0 +1,28 @@
+{
+  "templates": [
+    {
+      "location": "../files/",
+      "filename": "template3.pdf",
+      "filetype": "pdf",
+      "created_at": "10/31/2020"
+    },
+    {
+      "location": "../files/",
+      "filename": "template4.pdf",
+      "filetype": "pdf",
+      "created_at": "10/20/2020"
+    },
+    {
+      "location": "../files/",
+      "filename": "template5.pdf",
+      "filetype": "pdf",
+      "created_at": "09/17/2020"
+    },
+    {
+      "location": "../files/",
+      "filename": "template6.pdf",
+      "filetype": "pdf",
+      "created_at": "09/10/2020"
+    }
+  ]
+}

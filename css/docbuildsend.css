@@ -1,0 +1,107 @@
+#headblock{
+    width: 100%;
+    height: 75px;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#previewertitle{
+    float: right;
+    width: 50%;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    height: 7%;
+    font-size: 24px;
+    vertical-align: middle;
+
+
+}
+
+#previewer{
+    float: right;
+    width: 50%;
+
+}
+
+#previewtemp{
+    float: right;
+    background-color: gainsboro;
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+    border-style:none;
+    vertical-align: middle;
+}
+
+
+#contactlisttitle{
+    float: left;
+    width: 45%;
+    background-color: #3F51B5;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    height: 7%;
+    vertical-align: middle;
+}
+
+#contactview{
+    float: left;
+    width: 45%;
+}
+
+#contactviewer{
+    float: left;
+    background-color: gainsboro;
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+    border-style:none;
+}
+
+#isolate1{
+    float: left;
+    width: 5%;
+    height: 7%;
+    background-color: #282828;
+}
+
+#isolate2{
+    float: left;
+    height: 80%;
+    width: 5%;
+    background-color: #282828;
+}
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd; 
+    font-size: 18px; 
+}
+
+#myTable th, #myTable td {
+    text-align: left; 
+    padding: 12px; 
+}
+
+#myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,40 @@
+{
+  "templates": [
+    {
+      "location": "../files/",
+      "filename": "990_exempt.pdf",
+      "filetype": "pdf",
+      "created_at": "10/29/2019"
+    },
+    {
+      "location": "../files/",
+      "filename": "template21.pdf",
+      "filetype": "pdf",
+      "created_at": "10/30/2020"
+    },
+    {
+      "location": "../files/",
+      "filename": "template22.pdf",
+      "filetype": "pdf",
+      "created_at": "09/14/2020"
+    },
+    {
+      "location": "../files/",
+      "filename": "template3.pdf",
+      "filetype": "pdf",
+      "created_at": "10/29/2020"
+    },
+    {
+      "location": "../files/",
+      "filename": "template32.pdf",
+      "filetype": "pdf",
+      "created_at": "10/30/2020"
+    },
+    {
+      "location": "../files/",
+      "filename": "template32.pdf",
+      "filetype": "pdf",
+      "created_at": "09/14/2020"
+    }
+  ]
+}

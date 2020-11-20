@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Send Document</title>
+        <link rel="stylesheet" href="../css/docbuildsend.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="headblock">
+            </div>  
+        </header>
+        <div id="contactlisttitle">
+            <p>Contact List</p>   
+        </div>
+        <div id="isolate1">
+            <p></p>
+        </div>
+
+        <div id="previewertitle">
+            <p>Document Preview</p>
+        </div>
+
+        <div id="contactview">
+            <div style="text-align: center">
+
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search For Keyword">
+
+            <table id="myTable">
+                <tr class="header">
+                    <th style="width:60%;">Name</th>
+                    <th style="width:40%;">Entity</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Individual</td>
+                </tr>
+                <tr>
+                    <td>Berglunds snabbkop</td>
+                    <td>Tax Exempt</td>
+                </tr>
+                <tr>
+                    <td>Island Trading</td>
+                    <td>Partnership</td>
+                </tr>
+                <tr>
+                    <td>Koniglich Essen</td>
+                    <td>Corporation</td>
+                </tr>
+            </table> 
+
+
+        </div>
+
+
+
+        <script>
+            $(document).ready(function(){
+                $("#myInput").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#myTable tr").filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+
+
+        </div>
+        <div id="isolate2">        
+        </div>
+        
+
+        <div id="previewer">
+            <iframe id="previewtemp" src="https://drive.google.com/viewerng/viewer?url=url_of_pdf?pid=explorer&efh=false&a=v&chrome=false&embedded=true" embedded=true>
+
+            </iframe>
+
+        </div>
+
+
+    </body>
+</html>

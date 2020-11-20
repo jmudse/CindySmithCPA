@@ -1,0 +1,34 @@
+{
+  "recent_files": [
+    {
+      "file_name": "recent_file.pdf",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "PDF",
+      "entity_name": "Fake & Me"
+    },
+    {
+      "file_name": "engagement_letter1.pdf",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "DOCX",
+      "entity_name": "Cindy Smith CPA"
+    },
+    {
+      "file_name": "another_file.xlsx",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "XLSX",
+      "entity_name": "Fake & Us"
+    },
+    {
+      "file_name": "that_one_file.qbb",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "QBB",
+      "entity_name": "Fake & Us"
+    },
+    {
+      "file_name": "okay_last_file.pdf",
+      "file_location": "C://location/to/file/recent_file.pdf",
+      "file_type": "PDF",
+      "entity_name": "Fake & Co."
+    }
+  ]
+}

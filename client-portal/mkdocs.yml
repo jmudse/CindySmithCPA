@@ -1,0 +1,15 @@
+site_name: Client Portal - Documentation
+theme:
+  name: material
+nav:
+  - 'index.md'
+  - 'overview.md'
+  - 'installation.md'
+  - 'development.md'
+  - 'deployment.md'
+  - 'database.md'
+  - 'client_side.md'
+  - 'employee_side.md'
+  - 'manager_side.md'
+  - 'document_builder.md'
+  - 'testing.md'

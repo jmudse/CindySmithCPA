@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Document Builder</title>
+        <link rel="stylesheet" href="../css/docbuild.css">
+    </head>
+    <body>
+        <header>
+            <div id="headblock">
+            </div>  
+        </header>
+        <div id="previewertitle">
+            <p>Template Preview</p>
+        </div>
+
+        <div id="uploaderbox">
+            <form action="/action_page.php">
+                <input type="file" id="newtemp" hidden/>
+                <label for="newtemp">&nbsp;Choose Template&nbsp;</label>
+                <input type="submit" id="submitter" hidden/>
+                <label for="submitter">&nbsp;Submit&nbsp;</label>
+            </form>
+
+        </div>
+
+
+        <div id="pasttemptitle">
+            <p>Past Template Available</p>   
+        </div>
+
+        <div id="previewer">
+            <iframe id="previewtemp" src="https://drive.google.com/viewerng/viewer?url=url_of_pdf?pid=explorer&efh=false&a=v&chrome=false&embedded=true" embedded=true>
+
+            </iframe>
+
+        </div>
+
+        <div id="pasttemp">
+            <button type="button" class="collapsible">1040 Individual</button>
+            <div class="content">
+                <p>File link</p>
+
+            </div> 
+            <button type="button" class="collapsible">1065 Partnership</button>
+            <div class="content">
+                <p>File link</p>
+
+            </div> 
+            <button type="button" class="collapsible">1120S Corporation</button>
+            <div class="content">
+                <p>File link</p>
+
+            </div> 
+            <button type="button" class="collapsible">1041 Trust and Estate</button>
+            <div class="content">
+                <p>File link</p>
+
+            </div> 
+            <button type="button" class="collapsible">990 Tax Exempt</button>
+            <div class="content">
+                <p>File link</p>
+
+            </div> 
+        </div>
+
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display != "block") {
+                        content.style.display = "block";
+                    } else {
+                        content.style.display = "none";
+                    }
+                });
+            } 
+        </script>
+
+
+
+
+
+    </body>
+</html>

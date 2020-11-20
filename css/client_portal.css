@@ -1,0 +1,29 @@
+
+.entity-icon {
+    background: slategray;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.entity-info {
+    float: left;
+    margin-left: 2em;
+    margin-top: 1.5em;
+    line-height: 1.5em;
+}
+
+.entity-name {
+    font-size: 1.25em;
+}
+
+.entity-type {
+    color: slategray;
+}

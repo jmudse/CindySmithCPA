@@ -1,0 +1,72 @@
+{
+    "clients" : [
+        {
+            "id": "FREEMANKEVI",
+            "name": "Kevin W & Andrea B Freeman",
+            "entity": {
+                "name": "Freeman, Kevin W & Andrea B",
+                "type": "1040 Individual"
+            },
+            "email": "afreeman716@gmail.com",
+            "contact_address": "5 Kennedy Boulevard",
+            "city": "Hopewell Junction",
+            "state": "NY",
+            "country": "",
+            "zip": "12533-5616",
+            "work_phone": "",
+            "extensions": "",
+            "home_phone": "",
+            "fax": "",
+            "mobile_phone": "",
+            "mobile_phone_2": "",
+            "pager": "",
+            "other": "",
+            "other_ext": "",
+            "salutation": "Kevin & Andrea",
+            "tax_matters_person": "",
+            "preferred": "",
+            "spouse": [
+                {
+                    "name": "spouse",
+                    "email": "andrea@andreafreemanevents.com",
+                    "work_phone":"646-675-1664",
+                    "extension": "",
+                    "home_phone": "",
+                    "fax": "",
+                    "mobile_phone": "",
+                    "mobile_phone_2": "",
+                    "pager": "",
+                    "other": "",
+                    "other_ext": "",
+                    "preferred": ""
+                }
+            ]
+        },
+        {
+            "id": "ADAMSWILLIA",
+            "name": "William J & Margaret E Adams",
+            "entity": {
+                "name": "Adams, William J & Margaret E",
+                "type": "1040 Individual"
+            },
+            "email": "xlch64@icloud.com",
+            "contact_address": "3 Lyceum Road",
+            "city": "Lagrangeville",
+            "state": "NY",
+            "country": "",
+            "zip": "12540",
+            "work_phone": "914-589-2848",
+            "extensions": "",
+            "home_phone": "",
+            "fax": "",
+            "mobile_phone": "914-589-2848",
+            "mobile_phone_2": "",
+            "pager": "",
+            "other": "",
+            "other_ext": "",
+            "salutation": "William & Margaret",
+            "tax_matters_person": "Taxpayer",
+            "preferred": ""
+        }
+    ]
+}
